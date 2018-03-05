@@ -1,5 +1,10 @@
+import '../../styles/_reset.scss';
+import '../../styles/_ui.scss';
+
 import React from 'react';
 import ReactDom from 'react-dom';
+import SelectBox from '../ui/components/select-box';
+import TextForm from '../ui/components/text-form';
 
 class UIChallenge extends React.Component {
   constructor(props) {
@@ -26,9 +31,9 @@ class UIChallenge extends React.Component {
       <div className='ui'>
         <TextForm />
         <SelectBox />
-        <CheckBox />
-        <Radio />
-        <Submit />
+        {/* <CheckBox /> */}
+        {/* <Radio /> */}
+        {/* <Submit /> */}
       </div>
     );
   }
