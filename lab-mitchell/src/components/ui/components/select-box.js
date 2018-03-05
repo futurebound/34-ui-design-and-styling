@@ -24,11 +24,11 @@ class SelectBox extends React.Component {
         <select name="select-open">
           <option>please select an option...</option>
         </select>
-        <div class="option">option 1</div>
-        <div class="option-even">option 2</div>
-        <div class="option">option 3</div>
-        <div class="option-even">option 4</div>
-        <div class="option">option 5</div>
+        <div className="option">option 1</div>
+        <div className="option-even">option 2</div>
+        <div className="option">option 3</div>
+        <div className="option-even">option 4</div>
+        <div className="option">option 5</div>
         </label>
       </div>
     );
