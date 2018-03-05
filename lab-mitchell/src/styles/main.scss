@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 $form-border: 2px solid black;
+
 body {
-  background-color: gray;
-  color: white;
+  background-color: white;
+  color: black;
   margin-left: 20%;
   margin-right: 20%;
 }

@@ -3,7 +3,7 @@ import {Provider} from 'react-redux';
 import createStore from '../lib/store';
 import Dashboard from './dashboard/dashboard';
 import {BrowserRouter, Route} from 'react-router-dom';
-import UIChallenge from './ui/';
+import UIChallenge from './ui/ui';
 
 const store = createStore();
 
@@ -17,8 +17,10 @@ class App extends React.Component {
       <main className='main-content'>
         <Provider store={store}>
           <BrowserRouter>
-            <Route exact path='/' component={Dashboard}/>
-            <Route exact path='/ui' component={UIChallenge}/>
+            <section>
+              <Route exact path='/' component={Dashboard}/>
+              <Route exact path='/ui' component={UIChallenge}/>
+            </section>
           </BrowserRouter>
         </Provider>
       </main>

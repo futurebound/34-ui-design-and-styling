@@ -1,0 +1,30 @@
+// UI CHALLENGE STYLING 
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.option {
+  background-color: rgb(173, 170, 170);
+  padding: 10px;
+  line-height: 200%;
+  height: 50px;
+  margin: 0;
+  color: black;
+}
+
+.option-even {
+  background-color: gray;
+  padding: 10px;
+  line-height: 200%;
+  height: 50px;
+  margin: 0;
+  color: black;
+}
+
+label {
+  display: block;
+  margin-top: 2.5em;
+  font-size: 125%;
+}
