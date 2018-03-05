@@ -24,7 +24,11 @@ class UIChallenge extends React.Component {
   render() {
     return(
       <div className='ui'>
-
+        <TextForm />
+        <SelectBox />
+        <CheckBox />
+        <Radio />
+        <Submit />
       </div>
     );
   }
