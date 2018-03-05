@@ -3,6 +3,7 @@ import {Provider} from 'react-redux';
 import createStore from '../lib/store';
 import Dashboard from './dashboard/dashboard';
 import {BrowserRouter, Route} from 'react-router-dom';
+import UIChallenge from './ui/';
 
 const store = createStore();
 
